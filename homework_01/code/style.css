@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Raleway:ital,wght@0,100;0,400;0,500;1,100;1,400;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: whitesmoke;
+  font-style: italic;
+  max-width: 100%;
+  height: auto;
+  padding: 30px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+#introduction {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#catList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+div {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    margin: 15px 0;
+    color: #555;
+}
