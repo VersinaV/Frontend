@@ -1,0 +1,41 @@
+body, h1, p, span {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Add some spacing and style to the title */
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style paragraphs */
+p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+/* Style inline elements */
+span {
+    font-weight: bold;
+    color: #007bff; /* Blue color */
+}
+
+/* Style the image */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Increased margin for images */
+    border: 2px solid #007bff; /* Added a border for images */
+    padding: 10px; /* Added padding for images */
+}
